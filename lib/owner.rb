@@ -80,7 +80,9 @@ class Owner
   
   def list_pets
     @pets.each do |type, pets|  
-      pets.count 
+      if type = Fish 
+    
+      elsif type =  
     end 
     
     puts "I have "
