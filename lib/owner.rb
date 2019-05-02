@@ -59,7 +59,7 @@ class Owner
     end 
   end 
   
-  @pets[:fish].each do |x|
+  @pets[:fishes].each do |x|
       x.mood = "happy"
     end 
   
