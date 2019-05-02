@@ -87,6 +87,7 @@ class Owner
           cat_cum += 1
         elsif type = Dog 
           dog_cum += 1
+        end 
       end 
     end 
   end 
