@@ -98,8 +98,6 @@ class Owner
     
     
     puts "I have #{fish_cum} fish, #{dog_cum} dog(s) and #{cat_cum} cat(s)."
-    
-    binding.pry
 
   end 
   
