@@ -82,11 +82,11 @@ class Owner
     @pets.each do |type, pets|  
       pets.each do |x|
         binding.pry
-        if type.class == Fish 
+        if type.class == :fishes 
           fish_cum += 1
-        elsif type.class == Cat
+        elsif type.class == :cats
           cat_cum += 1
-        elsif type.class == Dog 
+        elsif type.class == :dogs
           dog_cum += 1
         end 
       end 
