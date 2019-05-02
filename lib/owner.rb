@@ -76,7 +76,6 @@ class Owner
     @pets.collect do |type, pets|  
       pets.clear
     end
-    binding.pry 
   end 
   
 end
