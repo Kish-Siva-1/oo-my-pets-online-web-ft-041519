@@ -65,6 +65,7 @@ describe Owner do
         owner.pets[:fishes].each do |fish|
           expect(fish).to be_a(Fish)
         end
+        binding.pry
         expect(owner.pets[:fishes].count).to eq(1)
       end
 
