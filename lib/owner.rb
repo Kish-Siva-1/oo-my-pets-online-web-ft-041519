@@ -81,14 +81,13 @@ class Owner
   def list_pets
     @pets.each do |type, pets|  
       if type = Fish 
-        
+        fish_cum += 1
       elsif type = Cat
-        
+        cat_cum += 1
       elsif type = Dog 
-        
+        dog_cum += 1
     end 
     
-    puts "I have "
   end 
   
 end
