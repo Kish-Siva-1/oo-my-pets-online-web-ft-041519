@@ -1,7 +1,7 @@
 require 'pry'
 
 class Owner
-  attr_accessor :species
+  attr_reader :species
   
   @@all = [] 
   
