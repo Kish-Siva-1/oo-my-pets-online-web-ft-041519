@@ -74,10 +74,9 @@ class Owner
     end 
     
     @pets.each do |type, pets|  
-    binding.pry 
       pets = [] 
     end
-    
+    binding.pry 
   end 
   
 end
