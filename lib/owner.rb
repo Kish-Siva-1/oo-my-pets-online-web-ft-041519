@@ -82,7 +82,9 @@ class Owner
     @pets.each do |type, pets|  
       if type = Fish 
     
-      elsif type =  
+      elsif type = Cat
+      
+      elsif type = 
     end 
     
     puts "I have "
