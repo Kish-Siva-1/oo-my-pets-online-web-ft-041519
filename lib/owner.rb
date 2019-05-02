@@ -80,10 +80,10 @@ class Owner
   
   def list_pets
     @pets.each do |type, pets|  
-      pets.each do |nervous| 
-        nervous.mood = "nervous"
-      end 
+      pets.count 
     end 
+    
+    puts "I have "
   end 
   
 end
