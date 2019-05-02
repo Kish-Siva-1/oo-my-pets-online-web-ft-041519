@@ -80,14 +80,15 @@ class Owner
   
   def list_pets
     @pets.each do |type, pets|  
-      if type = Fish 
-        fish_cum += 1
-      elsif type = Cat
-        cat_cum += 1
-      elsif type = Dog 
-        dog_cum += 1
+      pets.each do |x| 
+        if type = Fish 
+          fish_cum += 1
+        elsif type = Cat
+          cat_cum += 1
+        elsif type = Dog 
+          dog_cum += 1
+      end 
     end 
-    
   end 
   
 end
