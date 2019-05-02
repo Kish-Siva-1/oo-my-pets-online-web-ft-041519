@@ -74,7 +74,7 @@ class Owner
     end 
     
     @pets.collect do |type, pets|  
-      pets = [] 
+      pets.clear
     end
     binding.pry 
   end 
