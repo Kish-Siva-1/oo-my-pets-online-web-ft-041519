@@ -81,7 +81,6 @@ class Owner
   def list_pets
     @pets.each do |type, pets|  
       pets.each do |x|
-        binding.pry
         if type.class == :fishes 
           fish_cum += 1
         elsif type.class == :cats
