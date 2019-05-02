@@ -96,7 +96,7 @@ class Owner
       end 
     end
     
-    puts "I have #{} "
+    puts "I have #{fish_cum}  "
 
   end 
   
