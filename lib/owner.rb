@@ -18,5 +18,7 @@ class Owner
     Owner.all.count
   end 
 
+  
+
 end
 
