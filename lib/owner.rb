@@ -1,7 +1,7 @@
 require 'pry'
 
 class Owner
-  attr_accessor
+  attr_accessor :species
   
   @@all = [] 
   
@@ -21,9 +21,9 @@ class Owner
   def self.reset_all 
     @@all = []
   end 
-  
-  def species 
     
+  def species 
+    @species = 
   end 
   
 
