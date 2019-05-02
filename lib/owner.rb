@@ -93,7 +93,6 @@ class Owner
           dog_cum += 1
         end 
       end 
-    binding.pry
     end
 
   end 
