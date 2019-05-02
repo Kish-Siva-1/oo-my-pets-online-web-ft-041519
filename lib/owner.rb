@@ -97,7 +97,7 @@ class Owner
     end
     
     
-    "I have #{fish_cum} fish, #{dog_cum} dog(s) and #{cat_cum} cat(s)."
+    "I have #{fish_cum} fish, #{dog_cum} dog(s), and #{cat_cum} cat(s)."
 
   end 
   
