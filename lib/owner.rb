@@ -67,11 +67,11 @@ class Owner
   
   def sell_pets 
     @pets.each do |type, pets|  
-      pets.each do |x| 
+      pets.each do |nervous| 
         binding.pry
-        x.mood = "nervous"
+        nervous.mood = "nervous"
       end 
-      
+      binding.pry
     end 
   end 
   
