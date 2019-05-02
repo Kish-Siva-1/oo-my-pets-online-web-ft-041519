@@ -73,7 +73,7 @@ class Owner
       end 
     end 
     
-    @pets.each do |type, pets|  
+    @pets.collect! do |type, pets|  
       pets = [] 
     end
     binding.pry 
