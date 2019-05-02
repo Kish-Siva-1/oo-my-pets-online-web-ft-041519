@@ -96,6 +96,8 @@ class Owner
       end 
     end
     
+    binding.pry
+    
     puts "I have #{fish_cum} fish, #{dog_cum} dog(s) and #{cat_cum} cat(s) "
 
   end 
