@@ -30,7 +30,7 @@ describe Owner do
   context 'Class methods' do
 
     it "::count returns the number of owners that have been created" do
-      binding.pry
+      #binding.pry
       expect(Owner.count).to eq(1)
       Owner.new("human")
       Owner.new("human")
