@@ -9,6 +9,7 @@ class Owner
   def initialize(name) 
     @name = name 
     @@all << self 
+    @pets = {:fishes => [], :dogs => [], :cats => [] }
   end 
   
   def self.all 
@@ -31,9 +32,9 @@ class Owner
     "I am a human."
   end 
   
-  def pets
-    @pets = {:fishes => [], :dogs => [], :cats => [] }
-  end 
+  #def pets
+    #@pets = {:fishes => [], :dogs => [], :cats => [] }
+  #end 
   
   def buy_fish(fish_name)
     test_fish = Fish.new(fish_name)
