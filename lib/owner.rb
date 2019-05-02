@@ -79,6 +79,10 @@ class Owner
   end 
   
   def list_pets
+    fish_cum = 0
+    cat_cum = 0
+    dog_cum = 0
+    
     @pets.each do |type, pets|  
       pets.each do |x|
         if type.class == :fishes 
