@@ -79,6 +79,7 @@ class Owner
   end 
   
   def list_pets
+    
     fish_cum = 0
     cat_cum = 0
     dog_cum = 0
