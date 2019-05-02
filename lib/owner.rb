@@ -1,7 +1,7 @@
 require 'pry'
 
 class Owner
-  attr_reader :species
+  attr_reader :species, :class_species
   
   @@all = [] 
   
@@ -27,6 +27,7 @@ class Owner
   end 
   
   def say_species 
+    
     puts "I am a human"
   end 
   
