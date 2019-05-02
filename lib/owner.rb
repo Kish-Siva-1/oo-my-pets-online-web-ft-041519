@@ -32,10 +32,6 @@ class Owner
     "I am a human."
   end 
   
-  #def pets
-    #@pets = {:fishes => [], :dogs => [], :cats => [] }
-  #end 
-  
   def buy_fish(fish_name)
     test_fish = Fish.new(fish_name)
     @pets[:fishes] << test_fish 
