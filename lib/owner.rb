@@ -31,7 +31,7 @@ class Owner
     "I am a human."
   end 
   
-  def pets
+  def self.pets
     @pets = {:fishes => [], :dogs => [], :cats => [] }
   end 
   
