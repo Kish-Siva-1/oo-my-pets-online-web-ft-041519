@@ -54,7 +54,9 @@ class Owner
   end 
   
   def play_with_cats
-    
+    @pets[:cats].each do |x|
+      x.mood = "happy"
+    end 
   end 
   
 end
