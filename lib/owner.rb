@@ -96,7 +96,7 @@ class Owner
       end 
     end
     
-    puts " "
+    puts "I have #{} "
 
   end 
   
